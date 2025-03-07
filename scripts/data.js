@@ -2,20 +2,19 @@ export const dataFirstScreen = [
     {
         title: 'Реализация карточек товаров',
         descripton: 'Реализовано с помощью класса, поиск работает по имени, цене, а также работает фильтрация',
-        image: '../assets/image/goods.png',
+        image: './assets/image/goods.png',
         id: 1
     }, {
         title: 'Фотобар',
         descripton: '  Реализован с помощью функций.Ничего особенного, по мне так интересная практика.',
-        image: '../assets/image/scrollbar.png',
+        image: './assets/image/scrollbar.png',
         id: 2
 
     }, {
         title: 'Всплытие обьектов',
         descripton: 'Тренировка обзерва, с применением ООП. ',
-        image: '../assets/image/PhotoField.png',
+        image: './assets/image/PhotoField.png',
         id: 3
-
     },
 
 
@@ -24,7 +23,7 @@ export const dataFirstScreen = [
 export const productsData = [
     {
         productName: '1',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {

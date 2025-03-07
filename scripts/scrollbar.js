@@ -7,19 +7,13 @@ export function interactiveScrollBar() {
         item.setAttribute(`${'data-item'}`, idx)
         item.addEventListener('mouseover', ((e) => {
             const targetImg = e.target.parentNode
-
             targetImg.classList.add('active-img')
-
             itemImg.forEach(notFocus => {
-
                 if (!notFocus.classList.contains('active-img')) {
                     notFocus.classList.add('notactive-img')
-
                 } else {
                     notFocus.classList.remove('notactive-img')
-
                 }
-
             })
 
         }))
@@ -28,18 +22,14 @@ export function interactiveScrollBar() {
             itemImg.forEach(notFocus => {
                 item.classList.remove('active-img')
                 notFocus.classList.remove('notactive-img')
-
             })
-
         }))
-
     }))
 
 }
 
 
 function createHtmlScrollBar(arr) {
-
     let html = `
  <div class="scrollbar ">
             <div class="stroke-line" id="stroke-line"></div>
@@ -56,23 +46,16 @@ function createHtmlScrollBar(arr) {
                    <img src=".${arr[4]}" alt="" class="scrollbar__img"></div>
            </div>
            <div class="scroll__button">
-
                <div class="prev-btn" id="prev-btn" >prev</div>
                <div class="next-btn" id="next-btn" >next</div> 
            </div>
            </div>
-
 `
-
     return html
 }
-
-
-
 export function renderScrollBar(app, arr) {
     const html = createHtmlScrollBar(arr)
-
-    app.innerHTML  = html;
+    app.innerHTML = html;
 
 }
 

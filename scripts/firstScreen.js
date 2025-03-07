@@ -13,12 +13,9 @@ export class CardsCreateHtml {
             cardImg = document.createElement("img"),
             cardInfo = document.createElement("div");
 
-
         cardTitle.textContent = this.title
         cardDescription.textContent = this.description
         cardImg.src = this.img
-
-
 
         cardWrap.classList.add("card-wrap")
         card.classList.add("card")
@@ -28,24 +25,20 @@ export class CardsCreateHtml {
 
         card.setAttribute("data", `${this.id}`)
         cardImg.addEventListener("click", () => {
-
         })
         this.cardMove(card)
-
 
         cardInfo.append(cardTitle)
         cardInfo.append(cardDescription)
         card.append(cardInfo)
         card.append(cardImg)
         cardWrap.append(card)
-
         this.app.append(cardWrap)
 
     }
     cardMove(d) {
         d.getAttribute('data') % 2 === 0 ? d.classList.add("card_move-right") : d.classList.add('card_move');;
         d.classList.add('card_move');
-
     }
 
 }

@@ -1,11 +1,5 @@
-
 import { dataGoalkeaper, dataDefender, dataHalfDefend, dataAttack } from './data.js'
-
-
-
 function rebderField(app) {
-
-
     const html = `
          <div class="scroll-wrapp">
             <div class="field-square">
@@ -32,23 +26,15 @@ function rebderField(app) {
                     <div class="center__dot"></div>
                     <div class="center__round"></div>
                 </div>
-
                 <div class="attack">
-
                     ${renderClassPlayer(dataAttack, Atack)}
-                  
-                  
                 </div>
-
                 <div class="rama_bottom">
-
                     <div class="rama__square"></div>
                     <div class="rama__dot"></div>
                     <div class="rama__round"></div>
                 </div>
-
             </div>
-
         </div>
  `
     return html
@@ -56,22 +42,12 @@ function rebderField(app) {
 
 //Родитель . создание игроков
 class Player {
-
     constructor(name, description, photo) {
         this.name = name;
-
         this.description = description;
         this.photo = photo;
-
-
-
     }
-
     renderPlayer(i) {
-
-// observer.observe(card)
-
-
         const html = `
          <div class="player ${this.class + (i + 1)} " >
                <img src="${this.photo}" alt="игрок">
@@ -84,7 +60,6 @@ class Player {
         return html
     }
 
-
 }
 //Вратарь-------------------
 class Goalkeaper extends Player {
@@ -93,7 +68,6 @@ class Goalkeaper extends Player {
         this.class = 'goalkeaper'
     }
     renderPlayer(i) {
-
         const html = `
         <div class="player ${this.class} ">
               <img src="${this.photo}" alt="игрок">
@@ -105,16 +79,13 @@ class Goalkeaper extends Player {
        `
         return html
     }
-
 }
 //Защита
 class Defender extends Player {
-
     constructor(name, description, photo) {
         super(name, description, photo)
         this.class = 'defender_'
     }
-
 }
 //Полозащита
 class HalfDefer extends Player {
@@ -130,9 +101,7 @@ class Atack extends Player {
         super(name, description, photo)
         this.class = 'attacker__'
     }
-
 }
-
 //Функция отрисовки игроков ( для HTML)
 function renderClassPlayer(data, Class) {
     let html = '';
@@ -142,12 +111,8 @@ function renderClassPlayer(data, Class) {
             , data[i].image)
             .renderPlayer(i)}`
     }
-
     return html
-
-
 }
-
 
 const observer = new IntersectionObserver(function (player) {
     players.forEach(player => {
@@ -156,9 +121,5 @@ const observer = new IntersectionObserver(function (player) {
             observer.unobserve(player.target)
         }
     })
- 
 })
-// observer.observe(card)
-
-
 export { rebderField, }

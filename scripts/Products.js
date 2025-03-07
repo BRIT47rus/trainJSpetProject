@@ -1,8 +1,6 @@
 import { productsData } from "./data.js";
 
 class Product {
-
-
     constructor(app, product) {
         this.app = app;
         this.product = product;
