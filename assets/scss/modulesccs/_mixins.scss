@@ -1,0 +1,8 @@
+@mixin shadowHower($color,$margin-left,$margin-right,$font-size){
+    box-shadow: 
+    -1px 4px 20px 0px $color-accent,
+    inset   -2.4px -0.9px 12px -4px $color;
+    font-size: $font-size;
+    margin-right: -$margin-right;
+    margin-left: $margin-left,;
+}

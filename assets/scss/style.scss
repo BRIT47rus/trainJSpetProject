@@ -1,0 +1,102 @@
+@import "./modulesccs/start-page.scss";
+@import "./modulesccs/mixins";
+@import "./modulesccs/start-page";
+@import './modulesccs/animation';
+@import './modulesccs/goods';
+@import './modulesccs/scroll';
+@import './modulesccs/scrollbar';
+
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+$color-background: #0a0808;
+$color-background-card: #201a1a;
+
+$color-accent: rgba(105, 8, 8, 0.5);
+body {
+  font-family: "Bad Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  background-color: $color-background;
+  height: 100%;
+  width: 100%;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items:center;
+  // height: 100vh;
+  width: 100%;
+  
+}
+// Навигационная панель
+.nav {
+  display: none;
+  justify-content: space-around;
+  padding: 20px 0;
+  margin-bottom: 40px;
+  outline: 1px solid #fff;
+transition: all .3s ease-in;
+  .nav__item {
+    cursor: pointer;
+    font-size: 24px;
+    & {
+
+      &:hover {
+   
+        color: #940d0dde;
+      }
+    }
+  }
+}
+.nav__item_actice{
+  color: #e2df0fde;
+}
+
+//карточки главного экрана
+.card-wrap {
+  // display: none;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  // height: 100;
+  width: 100%;
+  padding: 20px auto;
+  
+  
+  .card {
+    box-sizing: border-box;
+    display: flex;
+    width: 70%;
+    height: 300px;
+    background: $color-background-card;
+    justify-content: space-around;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 8px;
+    transition: all 0.3s ease-in-out;
+    opacity: .3;
+    cursor: pointer;
+    &:hover{
+  
+      opacity: 1;
+    }
+    .card-info {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+    }
+    img {
+      height: 100%;
+      width: 300px;
+     border-radius: 8px;
+    
+    }
+  }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

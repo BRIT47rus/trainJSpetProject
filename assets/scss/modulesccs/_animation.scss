@@ -1,0 +1,130 @@
+//анимация выезжания
+
+.card_move {
+  position: relative;
+  overflow: 1px solid red;
+  background: red;
+  animation: cardm 1s;
+}
+@keyframes cardm {
+  0% {
+    left: -100%;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.card_move-right {
+  position: relative;
+  overflow: 1px solid red;
+  background: red;
+  animation: cardm-r 1s ease-in-out;
+}
+@keyframes cardm-r {
+  0% {
+    left: +100%;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+@keyframes footballPlayer {
+  0% {
+    opacity: 0;
+    transform: scale(-8, 2);
+    background: #000000;
+  }
+  80% {
+    transform: scale(1, 1);
+  }
+  100% {
+    // transform: scale(0);
+    // background: #fff;
+    opacity: 1;
+  }
+}
+@keyframes footballPlayer-out {
+  0% {
+    opacity: 0;
+    transform: scale(-8, 2);
+    background: #000000;
+  }
+  80% {
+    transform: scale(1, 1);
+  }
+  100% {
+    // transform: scale(0);
+    // background: #fff;
+    opacity: 1;
+  }
+}
+
+
+@keyframes shoeDescriptionPlayer {
+  0% {
+    opacity: 0;
+    margin-left: -200px;
+  }
+  80% {
+    opacity: 0;
+    margin-left: 200px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+@keyframes shoeDescriptionPlayer-out {
+  0% {
+    opacity: 0;
+    margin-left: -200px;
+  }
+  80% {
+    opacity: 0;
+    margin-left: 200px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+//Скролл бар-----------------------------------------
+@keyframes openScrolBarr {
+  2%{
+    filter: blur(5px);
+    opacity: 1;
+    transform: rotateX(180deg)
+  }
+  50%{
+    filter: blur(50px);
+    opacity: 0.5;
+    
+  }
+  100%{
+    filter: blur(0px);
+  transform: rotateX(0deg);
+  // opacity: 0;
+  }
+}
+
+
+
+@keyframes closeScrolBarr {
+  0%{
+    border: 1px solid yellow;
+    background: white;
+  }
+  100%{
+    border: 1px solid yellow;
+background: red;
+  }
+}
+
+///Анимациа открывани скролбара
+///Анимациа закрытия скролбара
+

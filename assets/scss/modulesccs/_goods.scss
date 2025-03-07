@@ -1,0 +1,152 @@
+.goods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goods-wrappes {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 80px;
+}
+
+.goods_wrap {
+  width: 300px;
+  height: 500px;
+  background-color: #201a1a;
+  border-radius: 16px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.goods__item-wrap {
+  margin-top: 30px;
+}
+.goods__item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-bottom: 30px;
+}
+.goods__img {
+  margin-top: 30px;
+  overflow: hidden;
+  border-radius: 8px;
+  img {
+    max-width: 300px;
+  }
+}
+.goods__param {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  span {
+    margin-top: 10px;
+  }
+}
+.goods__coast {
+  margin-top: 50px;
+}
+.goods__rating {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  div {
+    margin-right: 10px;
+  }
+}
+#star {
+  font-size: 18px;
+}
+.blank-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  margin-top: 20px;
+  // background-color: #201a1a;
+}
+.goods-blank {
+  display: inline-block;
+  padding: 4px 8px;
+  margin: 0 10px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  background: #201a1a;
+  &:hover {
+    background: red;
+  }
+}
+.active-black {
+  background: rgb(187, 7, 7);
+  pointer-events: none;
+}
+
+.search-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+#goods__input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #3d2626;
+  background: #1f1d1d;
+  outline: none;
+  color: white;
+
+  padding-right: 30px;
+}
+
+.money-inp {
+  padding: 6px 10px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 8px;
+  cursor: pointer;
+}
+.name-inp {
+  padding: 6px 10px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 42px;
+  cursor: pointer;
+}
+.active-type {
+  background: rgb(187, 7, 7);
+  pointer-events: none;
+  transition: all .2s ease-in-out;
+}
+.sort-price {
+  padding: 6px 10px;
+  background: #1f1d1d;
+  border-radius: 4px;
+  border:1px solid #3d2626;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  &:hover{
+    background: #383333;
+  }
+  &:active{
+    background: rgba(255, 0, 0, 0.582);
+
+  }
+}
+.changeSort{
+  transform: rotate(-180deg);
+  }
