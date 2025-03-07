@@ -72,28 +72,21 @@ function renderPages(app) {
                     renderCardsProduct(app, productsData)
                 }
                 if (idx === 1) {
-
                     app.innerHTML = ' '
-
                     renderingHTMLScrollBar()
-
                 }
                 if (idx === 2) {
                     app.innerHTML = ' '
-
                     renderFieldFootball()
-
                 }
                 addActiveItem(navItem, idx)
-
-
             }
             )
         })
 
     }
 
-    renderScreen(app, dataFirstScreen)
+    renderScreen(app, dataFirstScreen) ///ВОТ ОН!!!
 }
 renderPages(app)
 

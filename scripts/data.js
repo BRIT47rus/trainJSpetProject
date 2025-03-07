@@ -40,7 +40,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -57,7 +57,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -74,7 +74,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -91,7 +91,7 @@ export const productsData = [
     },
     {
         productName: 'Самогон',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -109,7 +109,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 333,
         vote: {
@@ -123,7 +123,7 @@ export const productsData = [
     },
     {
         productName: 'Гитара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 300,
         vote: {
@@ -155,7 +155,7 @@ export const productsData = [
     },
     {
         productName: 'арбуз',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 500,
         vote: {
@@ -171,7 +171,7 @@ export const productsData = [
     },
     {
         productName: 'гитара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 150,
         vote: {
@@ -187,7 +187,7 @@ export const productsData = [
     },
     {
         productName: '11',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 15,
         vote: {
@@ -203,7 +203,7 @@ export const productsData = [
     },
     {
         productName: '12',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 150,
         vote: {
@@ -218,7 +218,7 @@ export const productsData = [
 
     }, {
         productName: '1',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1001,
         vote: {
@@ -235,7 +235,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -252,7 +252,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -269,7 +269,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -286,7 +286,7 @@ export const productsData = [
     },
     {
         productName: 'Самогон',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -304,7 +304,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 333,
         vote: {
@@ -318,7 +318,7 @@ export const productsData = [
     },
     {
         productName: 'Гитара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 300,
         vote: {
@@ -334,7 +334,7 @@ export const productsData = [
     },
     {
         productName: 'Дыня',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 888,
         vote: {
@@ -350,7 +350,7 @@ export const productsData = [
     },
     {
         productName: 'арбуз',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 500,
         vote: {
@@ -366,7 +366,7 @@ export const productsData = [
     },
     {
         productName: 'гитара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 150,
         vote: {
@@ -382,7 +382,7 @@ export const productsData = [
     },
     {
         productName: '11',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1522222,
         vote: {
@@ -398,7 +398,7 @@ export const productsData = [
     },
     {
         productName: '12',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 15211,
         vote: {
@@ -414,7 +414,7 @@ export const productsData = [
     },
     {
         productName: '1',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -431,7 +431,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -448,7 +448,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -465,7 +465,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -482,7 +482,7 @@ export const productsData = [
     },
     {
         productName: 'Самогон',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -500,7 +500,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 333,
         vote: {
@@ -514,7 +514,7 @@ export const productsData = [
     },
     {
         productName: 'Гитара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 300,
         vote: {
@@ -530,7 +530,7 @@ export const productsData = [
     },
     {
         productName: 'Дыня',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 888,
         vote: {
@@ -546,7 +546,7 @@ export const productsData = [
     },
     {
         productName: 'арбуз',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 500,
         vote: {
@@ -562,7 +562,7 @@ export const productsData = [
     },
     {
         productName: 'гитара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 150,
         vote: {
@@ -578,7 +578,7 @@ export const productsData = [
     },
     {
         productName: '11',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 150,
         vote: {
@@ -594,7 +594,7 @@ export const productsData = [
     },
     {
         productName: '12',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 150,
         vote: {
@@ -609,7 +609,7 @@ export const productsData = [
 
     }, {
         productName: '1',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -626,7 +626,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -643,7 +643,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -660,7 +660,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -677,7 +677,7 @@ export const productsData = [
     },
     {
         productName: 'Самогон',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -695,7 +695,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 333,
         vote: {
@@ -709,7 +709,7 @@ export const productsData = [
     },
     {
         productName: 'Гитара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 300,
         vote: {
@@ -725,7 +725,7 @@ export const productsData = [
     },
     {
         productName: 'Дыня',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 888,
         vote: {
@@ -741,7 +741,7 @@ export const productsData = [
     },
     {
         productName: 'арбуз',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 500,
         vote: {
@@ -757,7 +757,7 @@ export const productsData = [
     },
     {
         productName: 'гитара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 150,
         vote: {
@@ -773,7 +773,7 @@ export const productsData = [
     },
     {
         productName: '11',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 15000000000,
         vote: {
@@ -789,7 +789,7 @@ export const productsData = [
     },
     {
         productName: '12',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 150,
         vote: {
@@ -804,7 +804,7 @@ export const productsData = [
 
     }, {
         productName: '1',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -821,7 +821,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -838,7 +838,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -855,7 +855,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -872,7 +872,7 @@ export const productsData = [
     },
     {
         productName: 'Самогон',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -890,7 +890,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 333,
         vote: {
@@ -904,7 +904,7 @@ export const productsData = [
     },
     {
         productName: 'Гитара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 300,
         vote: {
@@ -920,7 +920,7 @@ export const productsData = [
     },
     {
         productName: 'Дыня',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 888,
         vote: {
@@ -936,7 +936,7 @@ export const productsData = [
     },
     {
         productName: 'арбуз',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 500,
         vote: {
@@ -952,7 +952,7 @@ export const productsData = [
     },
     {
         productName: 'гитара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 150,
         vote: {
@@ -968,7 +968,7 @@ export const productsData = [
     },
     {
         productName: '11',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 150,
         vote: {
@@ -984,7 +984,7 @@ export const productsData = [
     },
     {
         productName: '12',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 150,
         vote: {
@@ -1000,7 +1000,7 @@ export const productsData = [
     },
     {
         productName: '1',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -1017,7 +1017,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -1034,7 +1034,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -1051,7 +1051,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -1068,7 +1068,7 @@ export const productsData = [
     },
     {
         productName: 'Самогон',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 1000,
         vote: {
@@ -1086,7 +1086,7 @@ export const productsData = [
     },
     {
         productName: 'Название товара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 333,
         vote: {
@@ -1100,7 +1100,7 @@ export const productsData = [
     },
     {
         productName: 'Гитара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 300,
         vote: {
@@ -1116,7 +1116,7 @@ export const productsData = [
     },
     {
         productName: 'Дыня',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 888,
         vote: {
@@ -1132,7 +1132,7 @@ export const productsData = [
     },
     {
         productName: 'арбуз',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 500,
         vote: {
@@ -1148,7 +1148,7 @@ export const productsData = [
     },
     {
         productName: 'гитара',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 150,
         vote: {
@@ -1164,7 +1164,7 @@ export const productsData = [
     },
     {
         productName: '11',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 150,
         vote: {
@@ -1180,7 +1180,7 @@ export const productsData = [
     },
     {
         productName: '12',
-        imageProduct: '../assets/image/1.jpg',
+        imageProduct: './assets/image/1.jpg',
         descriptionProduct: 'Тут должно быть описание товара.',
         priceProduct: 150,
         vote: {
